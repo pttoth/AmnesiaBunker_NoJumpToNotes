@@ -3,7 +3,7 @@
 	Type="AddOn"
 	Title="NoJumpToNotes"
 	Author="Tapir"
-	Description_english="Version: m1.0_v1.3.1
+	Description_english="Version: m1.0_v1.31
     When playing with no-pause inventory, it will no longer jump to unread notes and photos, when opened."
 
 	LauncherPic="LauncherPic.png"
