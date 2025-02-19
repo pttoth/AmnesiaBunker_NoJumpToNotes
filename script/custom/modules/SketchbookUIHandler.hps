@@ -1064,7 +1064,7 @@ class cScrSketchbookUIHandler : iScrUserModule, iScrUserModule_Interface, iScrSk
 		
 		//////////////////////////////
 		// Open directly to the notes page if a note was recently collected
-		if (mbAuxiliaryBoxActive==false)
+		if (mbAuxiliaryBoxActive==false && GameDifficulty_GetSettingValueByID_Bool(eGameDifficultySetting_GamePausedInInventory) )
 		{
 			if (mfNewNoteNotifyDisplayTimer > 0.f)
 			{
